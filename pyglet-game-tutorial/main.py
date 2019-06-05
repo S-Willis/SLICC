@@ -1,7 +1,7 @@
 import pyglet
 import config
 from system.component import Component
-from entities.ball import ball
+from entities.ball import Ball
 from random import randint
 
 window = pyglet.window.Window(height = config.window_height, width = config.window_width)
@@ -33,3 +33,5 @@ def main():
 
     pyglet.clock.schedule_interval(update, 1/60.0)
     pyglet.app.run()
+
+main()

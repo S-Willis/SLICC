@@ -7,7 +7,7 @@ class Ball(Component):
     def __init__(self, *args, **kwargs):
         super(Ball, self).__init__(*args,**kwargs)
         self.speed = kwargs.get('speed', 5)
-        self.ball_image = pyglet.image.load()
+        self.ball_image = pyglet.image.load('assets\\ball.png')
         self.width = self.ball_image.width
         self.height = self.ball_image.height
         self.ball_sprite = pyglet.sprite.Sprite(self.ball_image,self.x,self.y)
