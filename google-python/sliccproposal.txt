@@ -1,0 +1,129 @@
+SLICC Proposal Draft
+
+Q2. How can you define the context of your chosen Learning Experience at the start of your SLICC?
+Use this space to demonstrate that you have researched the context of your SLICC.
+Provide details on how you found the opportunity.
+Outline your current perceptions about your role in this new environment and who you will be interacting with.
+State who your supervisor is (if applicable), how the learning experience was agreed and the scope of the experience.
+Link the project to a wider scope – what could the potential future outcomes be for the field in which you are carrying out the project?
+If you include any factual information remember to provide detailed references.
+
+My SLICC is a self-directed course introducing myself to Deep Learning and the TensorFlow library and then applying this knowledge to a project where I train an AI to drive around a track using these tools. To do this I will also need to re-familiarise myself with the language Python as I have previously completed the Codecademy Python course but since then have neglected my skills. I will also need to become proficient in the Pyglet Python game making library which I have never used before. I will achieve this using multiple online courses and mini-projects to test my skills as I go and offer opportunity for reflection. This project aligns perfectly with my career goals as Artificial Intelligence is increasingly becoming more and more relevant in all areas of Computer Science, therefore this project will be applicable to many of the jobs I may have in the future.
+My chosen Learning Experience is a self-directed course in artificial neural networks and deep learning using Python and the TensorFlow framework. Deep learning is extremely relevant in the field of computer science right now, the key technology behind driverless cars and voice-controlled TVs and phones. The possibilities of future outcomes for deep learning are endless. This means that my SLICC aligns perfectly with my career goals because I want to work in the field of Computer Science, and deep learning is quickly taking over many aspects of this fields therefore it is likely to be applicable to many of the jobs I may have in the future. I will demonstrate my proficiency in deep learning by completing a project where I build a basic track racing game and then code a deep learning AI to teach itself to drive.
+
+Q3. What is/are the aim(s) of your chosen learning experience? How will this learning experience contribute to your own development?
+Describe the main aims you have for your SLICC.
+How did you determine which area to carry out your project in?
+What prior experience, if any, has shaped the choice of your learning experience?
+Did you undertake any self-awareness activities or questionnaires, if so, what did you find out from these and how did this shape your project choice?
+Highlight the new challenges you will potentially face and how these could lead to your personal development.
+Try to relate the project to your future career aims and to potential longer-term benefits for the field/area you are working in.
+If you believe the project will help you develop specific skills, describe how these skills will be developed and justify why you have chosen to develop these specific skills.
+
+There are both technical and personal goals I am trying to reach in my project. On the technical side, I aim to re-strengthen my Python skills and familiarise myself with Deep Learning concepts and the TensorFlow code library. Personally, I aim to develop my skills in time management and self motivation, because in order to complete my project I will need to create a plan and have the self discipline and motivation to stick to that plan and complete my project on time. Furthermore I aim to improve my resilience as code rarely works perfectly first time and it can become frustrating after a long time working at the same thing. These two personal skills will be relevant to my future career aims because although I will often be working in a team of people, I will have to be able to work independently and motivate myself within that team. I will also undoubtedly write code that isn’t immediately correct and must be able to deal with this independently. 
+
+I have both academic and personal goals I hope to reach during my SLICC. Academically I hope to strengthen my Python skills as it is a versatile programming language that is desirable to employers and will be relevant in my Degree going forward. I took the Codecademy Python course two years ago but have since then neglected my skills, so I will need to re-familiarise myself with the language in order to complete my final project. Personally I aim to develop my time management and organisation skills. These skills will be developed throughout my whole SLICC because in order to complete it before the end date I must manage my time effectively and keep myself and my code organised so that I know what I have completed and what I need to work on next to utilise my time effectively. These skills will be relevant to my future career aims because although I will likely be working in a team of people, I will need to be able to get my personal share of the work done in time and I will need to keep tidy and organised code so that others will understand what I have done and can work on my code without needing a long explanation.
+
+
+
+Q4a. Learning Outcome 1: I am able to demonstrate how I have actively developed my understanding of the topic of my SLICC.
+What research will you do/have you done? (brief outline)
+Expectations from your research: what do you understand about the context/setting of your SLICC e.g. aims and relevant principles / theories / practices / rationales? What tasks/activities do you expect to be doing?
+How did your SLICC experience confirm or bring into question your preliminary research?
+How do you think they will contribute to your understanding of the context?
+Can you anticipate key steps in your learning or points for assessing your progress?
+What potential challenges do you anticipate in carrying out your SLICC?
+Do you have any strategies for dealing with these?
+What unanswered questions do you have?
+How might you go about finding answers?
+
+I will develop my current understanding of Deep Learning which is currently purely theoretical. I have researched some of the constructs such as neural networks and have a basic understanding of the theory but have no idea how to implement anything practically. I will do this by following a course on Udemy called ‘Complete Guide to Tensor Flow for Deep Learning’ and completing any activities it directs me to do. I will also do a short project to enable me to assess my understanding before embarking on my main project for my SLICC. One potential challenge is that I might not fully understand some of the content as it is quite advanced, but I plan to resolve this by supplementing my learning with additional YouTube videos in any areas I do not feel comfortable in. 
+During my SLICC I will develop my understanding of Deep Learning which is currently very basic. I have researched a little into the key components of deep learning, such as neural networks, but I have no understanding of the details of the theory or how to implement anything myself. I will develop this understanding using a course on Udemy called ‘Complete Guide to Tensor Flow for Deep Learning with Python’ and completing any activities included in this course. I will also complete a smaller project using the knowledge I gain from this course to enable myself to assess my new skills and understanding before embarking on my main project. One potential challenge that I have identified is that I may not fully understand all of the content since it is highly technical and may get quite advanced, but I plan to resolve this my supplementing my learning with additional content that I will find as and when I encounter an area I do not feel comfortable in. 
+
+What forms of evidence do you anticipate being able to use to demonstrate you have met this Learning Outcome?
+I will evidence my understanding of Deep learning with the certificate of completion provided by Udemy. I will also provide a link to my GitHub where I will upload any code I write in this SLICC, including code that draws on my understanding of Deep Learning. 
+I will evidence my interaction with this Learning Objective with the certificate of completion provided by Udemy and photos of any notes I make during the course and about any additional content I feel necessary. I will also provide a link to my GitHub where I will upload any code written in this SLICC, where my mini-project and any code written as part of the course will be found.
+Q4b. Learning Outcome 2: I am able to draw on and apply range of relevant skills and attributes (academic, professional and/or personal) in order to engage effectively with my SLICC, identifying where I need to improve these and/or develop new ones.
+Which of your existing skills and attributes do you think you will need for your SLICC?  Why?
+Are there any new skills / attributes that you anticipate having to develop?  Why?  
+How might you help/support yourself to develop these? 
+  
+I will need to develop my existing skills in Python as that is the language TensorFlow is written in so that’s the language I will need to write my final project in. I will have to develop a new skill in game development in order to create a driving track for the AI to control, and to do this in python I will need to familiarise myself with Pyglet, a python game development library.  I will do this by following two youtube tutorials and coding along with them, and also completing a mini-project before the final project in order to test my skills and reflect on my progress. I also hope to develop my problem solving skills which are essential to coding as there are often unexpected issues that must be overcome.
+I will need to draw on my existing language learning skills during my SLICC in order to develop and enhance my Python skills. I have always had a passion for learning languages, the skills of which cross over with the skills needed to learn programming languages.  I will also need to apply my skills of self-motivation in order to engage effectively with my SLICC, since I will be writing a lot of code, most of which will probably not run perfectly first time which can be disheartening. This has been a problem for me in the past so I will need to develop my self-motivation skills during this SLICC.
+What forms of evidence do you anticipate being able to use to demonstrate you have met this Learning Outcome?
+I will provide a link to my GitHub where all source code will be available as evidence of my understanding. I will also use my reflective blog to evidence any problems and my thought process in overcoming them. 
+My language learning skills will be reflected in the code uploaded to GitHub as mentioned previously, since I will be learning Python and all the code will be written in Python, thus evidencing that I have learnt Python. I will use my blog to evidence the development of my self-motivation skills by discussing issues that I face and how I found the motivation to keep working at the problem.
+Q4c.  Learning Outcome 3:  I am able to demonstrate how I have used experiences during my SLICC to actively develop my skills in the focussed area of...
+Choose one
+ Personal and Intellectual Autonomy
+Explain your choice below
+Which skill area did you select and why? (Research and enquiry / Personal and intellectual autonomy / Communication / Personal effectiveness)
+What skill(s) within your chosen area of focus are relevant to your SLICC?  How are they relevant? 
+
+I selected Pesonal and Intellecutal Autonomy as my SLICC is an independent project that will involve a lot of inventive thinking and learning, which makes it a perfect opportunity to develop my learning skills. I will also develop my resilience and self awareness as I will often have to debug my own code and be aware of my own weaknesses and mistakes. 
+I chose Personal and Intellectual Autonomy because my SLICC is a project that will involve a lot of learning and inventive thinking independently, which makes it a perfect opportunity to develop my independent learning skills. I will also develop my self-awareness skills as I will often have to debug my own code and become aware of areas where I am weaker or often make mistakes.
+
+What tools/models/assessment instruments or other input can you use to assess your proficiency in these skills?
+Where/how you need to develop?
+How do you currently plan to strengthen your skill(s) in this area during your SLICC?  
+This project is independent therefore there will not be any opportunity for external assessment, but I will continually self evaluate and document my inventive thinking, learning, resilience and self awareness skills in my reflective blog. 
+
+This project is independent therefore there will not be opportunity for external assessment of these skills, but I will continually self-evaluate my independent learning, inventive thinking and self awareness skills in my reflective blog.
+
+What forms of evidence do you anticipate being able to use to demonstrate you have met this Learning Outcome?
+I will use extracts from my reflective blog as evidence of my interaction with this learning outcome.
+
+Q4d.  Learning Outcome 4: I am able to demonstrate how I have used experiences during my SLICC to actively explore my mindset towards…
+Choose one
+ Aspiration and personal development
+
+Explain your choice below
+Which mindset did you select and why?
+For the mindset you have selected, briefly describe:  
+•  What do you understand this mindset to mean?
+•  How does it relate to the context of your SLICC?
+•  What, if any, unanswered questions do you have about what this mindset means?
+•  How might you go about finding answers?
+
+I have chosen to focus on my mindset towards enquiry and life long learning as the field of computer science is ever changing therefore in my professional life a love for lifelong learning will be of great benefit. This SLICC reflects my passion for learning about topics that interest me because AI is one of the reasons I chose to do a Computer Science degree.  In my view, this mindset is about being inspired by current developments or experiences I have and using this inspiration to proactively develop a skill or my knowledge in a certain area. 
+I have chosen to focus on my mindset towards enquiry and lifelong learning because the field of computer science is constantly changing and developing, therefore in my future career my mindset towards lifelong learning will be instrumental to my ability to adapt and succeed. In my opinion, this mindset is about being inspired by current developments or experiences I have and using this inspiration to proactively develop a skill or my knowledge in a certain area.
+What tools/models/assessment instruments or other input can you use to understand your mindset in this area?
+Where do you think there may be opportunities during your SLICC to better understand your mindset in this area? 
+How do you currently plan to explore your mindset in this area during your SLICC?  
+
+There will be multiple opportunities during my SLICC to better understand my mindset towards Lifelong learning as I will be developing three areas of knowledge, two of which are completely new to me. I plan to explore this mindset by after each “block” of content reflecting on areas that I had a fixed mindset and areas where I had a growth mindset and recording this reflection in my blog. 
+My SLICC as a whole is a great opportunity to better understand my mindset towards enquiry and lifelong learning since it is based around learning about a new and relevant topic in the field of computer science. I plan to actively record my exploration of this in my reflective blog after each “block” of content by reflecting on areas that I had a fixed mindset and areas where I had a growth mindset, with the goal of having a wholly growth mindset towards enquiry and lifelong learning.
+
+What forms of evidence do you anticipate being able to use to demonstrate you have met this Learning Outcome?
+I will use excerpts from my reflective blog as evidence of my engagement with my Lifelong learning mindset.
+
+Q4e. Learning Outcome 5: I am able to evaluate and critically reflect upon my approach, my learning and my development throughout my SLICC.
+Showing how you will actively reflect on your learning throughout the experience is essential.  Summarise below:
+•	Why should you actively reflect on your learning experience and how will recording your thoughts help you to reflect?  
+•	How do you plan to reflect upon and evaluate your progress and learning throughout your SLICC?
+o	Include tools, models, strategies you plan to use to record your thoughts and ideas
+o	Include your planned schedule for your reflective blog/other key points for reflection, including how often you intend to record your thoughts
+•	How will you demonstrate this reflection?
+
+Actively reflecting on my learning experience will help me keep track of the progress I have made in each of my areas that I wish to develop and will help me identify where I need to improve. Recording my thoughts will help document my skill progression and mindset throughout the project which will help me engage with the other learning objectives. I plan to use the Experience Reflection Action cycle as a model for my reflection as this fits the best with my project and will ensure that I have an action plan for improvement after every reflection cycle. I plan to update my reflective blog after every course I complete or on the Friday if the course takes a week or longer and again after the course is finished. I will also reflect halfway through my final project and afterwards. This will ensure I always know how I need to improve and what to focus on. 
+I will demonstrate this reflection on my reflective blog.
+________________________________________
+Q5.  What is the timeline of your learning experience?
+All SLICCs must take place within a University-defined period of time - see the start and end dates below. Your SLICC can be undertaken at any time within this defined period and may use all or some of the time available, however, a minimum of 5 weeks must be used for your SLICC.
+•	Start date: Friday 31st May 2019 is the first date that a SLICC can formally commence. Remember that your SLICC cannot formally begin until your SLICC Proposal is approved. However, you may be planning and preparing for your SLICC.  This also potentially represents a series of important learning opportunities, that you should start to capture, reflect on, and evidence, which you can draw on retrospectively.
+•	End date: Monday 5th August 2019 at midday is the deadline for the Final Reflective Report for your SLICC (5th August 2019). 
+
+As with all other credit bearing courses, the submission date for the assessment is the same for all SLICCs and you must adhere strictly to both the time and date. At this point a 'snapshot' of your SLICC workbook will be logged in PebblePad and will then be made available for assessment. 
+If you think this end date may be a problem, please email the SLICCs Team (slicc@ed.ac.uk) as soon as possible to consider options.
+Your SLICC start date, i.e. when you plan to start work on your SLICC (Date Month Year, e.g. 31 May 2019 ).  Formally this can only happen once your SLICC Proposal has been approved by your SLICC Tutor.
+Your deadline for submitting your Interim Reflective Report (Date Month Year, e.g. 2 July 2018) - this must be agreed between you and your SLICC Tutor to ensure they will be available to review your Interim Reflective Report and give feedback, and that you will receive the feedback with enough time to then inform your Final Reflective Report.  Include your initial suggestion here and update it as soon as you have agreed the date with your SLICC Tutor.
+Your SLICC end date, i.e. when you plan to submit your Final Reflective Report and complete your Self Assessment (Date Month Year, e.g. 5th August 2019). 
+Having a timeline for your SLICC is important, not only capturing your Start, Interim Reflective Report and End Dates, but also bringing together other important elements that you can anticipate just now.  This will help keep you on track and will help your SLICC Tutor assess how viable your plans are.
+Provide a summary below of your timeline, including:
+•	provisional blogging activity dates,
+•	key blog dates (i.e. after receiving feedback from your SLICC Tutor on your Interim Reflective Report),
+•	dates for uploading evidence (week by week or as it is obtained),
+•	important dates for project activities.
+
+
+I will begin my SLICC on 3rd June 2019 by starting the Python course to re-develop my skills. This will only take two days so I will finish on 4th June and update my blog. From the 5th to the 6th of June I will complete another series of Python tutorials, this time about a specific library that I will need to use in order to complete my final project. On the 7th June I will complete a mini-project using these new skills and on the 8th I will update my blog again to reflect on my progress. From the 10th to the 17th I will complete the Udemy Deep Learning course and will complete another mini-project on the 18th to test my knowledge and understanding. I will update my blog on the 15th and the 18th about the course and will spend the 19th and 20th working on my Interim Reflective Report, submitting on the 20th. I will then begin my final project, which will take about 10 days (21/6-1/7). I will update my blog after creating my initial plan (21st), about halfway through the project (26th) and after I have completed it (1/7). However, I cannot say with certainty how long my project will take until I have started it and gained a feel for what my general work pace will be and how long it will take to overcome the challenges I face, therefore I will allow myself a couple of days out of my final report writing time if I need to do so. I intend to work on my report from 2nd July to 7th July, and submit in the morning on the 8th.  This will give me enough time to work on fine tuning my report even in the event of some extra time being spent on my project.
