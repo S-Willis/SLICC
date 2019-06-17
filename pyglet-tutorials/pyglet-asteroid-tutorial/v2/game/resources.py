@@ -1,6 +1,6 @@
 import pyglet
 
-pyglet.resource.path = ["C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\pyglet-tutorials\\pyglet-asteroid-tutorial\\recources\\"]
+pyglet.resource.path = ["C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\pyglet-tutorials\\pyglet-asteroid-tutorial\\resources\\"]
 pyglet.resource.reindex()
 
 player_image = pyglet.resource.image("player.png")
