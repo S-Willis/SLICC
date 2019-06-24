@@ -19,7 +19,7 @@ class Car(pyglet.sprite.Sprite):
     def update(self, dt):
         self.x += self.x_velocity * dt
         self.y += self.y_velocity * dt
-        #self.check_track
+        self.check_bounds()
 
         if self.key_handler[key.LEFT]:
             self.rotation -= self.rotate_speed *dt
@@ -28,4 +28,23 @@ class Car(pyglet.sprite.Sprite):
 
         if self.key_handler[key.UP]:
             angle_radians = -math.radians(self.rotation)
-            x_force = math
+            x_force = math.sin(angle_radians) * self.acceleration * dt
+            y_force = math.sin(angle_radians) * self.acceleration * dt
+            self.x_velocity += x_force
+            self.y_velocity += y_force
+
+    def check_bounds(self):
+        min_x = -self.image.width /2
+        min_y = -self.image.width /2
+        max_x = 800 + self.image.width/2
+        max_y = 600 + self.image.height/2
+
+        if self.x < min_x:
+            self.x = max_x
+        elif self.x > max_x:
+            self.x = min_x
+
+        if self.y < min_y:
+            self.y = max_y
+        elif self.y > max_y:
+            self.y = min_y
