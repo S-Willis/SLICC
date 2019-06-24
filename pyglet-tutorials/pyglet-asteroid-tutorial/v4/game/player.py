@@ -1,4 +1,3 @@
-from . import physicalobject, resources
 import math
 from pyglet.window import key
 from . import physicalobject, resources, bullet
@@ -33,24 +32,6 @@ class Player(physicalobject.PhysicalObject):
         new_bullet.velocity_x = bullet_vx
         new_bullet.velocity_y = bullet_vy
         self.new_objects.append(new_bullet)
-        # angle_radians = -math.radians(self.rotation)
-        # ship_radius = self.image.width/2
-        # bullet_x = self.x + math.cos(angle_radians) * ship_radius
-        # bullet_y = self.y + math.sin(angle_radians) * ship_radius
-        # new_bullet = bullet.Bullet(bullet_x, bullet_y, batch=self.batch)
-        #
-        # bullet_vx = (
-        #     self.velocity_x +
-        #     math.cos(angle_radians) * self.bullet_speed
-        # )
-        # bullet_vy = (
-        #     self.velocity_y +
-        #     math.sin(angle_radians) * self.bullet_speed
-        # )
-        # new_bullet.velocity_x = bullet_vx
-        # new_bullet.velocity_y = bullet_vy
-        #
-        # self.new_objects.append(new_bullet)
 
 
     def update(self, dt):
