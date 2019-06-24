@@ -4,7 +4,8 @@ pyglet.resource.path = ["C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\pyglet-
 pyglet.resource.reindex()
 
 player_image = pyglet.resource.image("player.png")
-bullet_image = pyglet.resource.image("bullet.png")
+# bullet_image = pyglet.resource.image("bullet.png")
+bullet_image = pyglet.resource.image("player.png")
 asteroid_image = pyglet.resource.image("asteroid.png")
 engine_image = pyglet.resource.image("flame.png")
 

@@ -18,8 +18,6 @@ game_window.push_handlers(player_ship)
 game_window.push_handlers(player_ship.key_handler)
 
 def update(dt):
-    for obj in game_objects:
-        obj.update(dt)
 
     for i in range(len(game_objects)):
         for j in range(i+1, len(game_objects)):
@@ -30,9 +28,19 @@ def update(dt):
                     obj_1.handle_collision_with(obj_2)
                     obj_2.handle_collision_with(obj_1)
 
+    to_add = []
+
+    for obj in game_objects:
+        obj.update(dt)
+        to_add.extend(obj.new_objects)
+        obj.new_objects = []
+
+
     for to_remove in [obj for obj in game_objects if obj.dead]:
         to_remove.delete()
         game_objects.remove(to_remove)
+
+    game_objects.extend(to_add)
 
 @game_window.event
 def on_draw():
