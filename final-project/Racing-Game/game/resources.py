@@ -5,8 +5,8 @@ pyglet.resource.reindex()
 
 car_image = pyglet.resource.image("car.png")
 
-def center_image(image):
-    image.anchor_x = image.width/2
+def sprite_center(image):
+    image.anchor_x = image.width
     image.anchor_y = image.height/2
 
-center_image(car_image)
+sprite_center(car_image)
