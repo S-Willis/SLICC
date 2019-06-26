@@ -13,14 +13,19 @@ lap_counter = pyglet.text.Label(text = "Lap: " + str(lap), x=10, y=575, batch=ma
 iteration_counter = pyglet.text.Label(text = "Iteration: " + str(iteration), x = 700, y=575,batch=main_batch,color=(0,0,0,255))
 level_track = track.Track(x=400,y=300,batch=main_batch)
 player_car = car.Car(x=400,y=500,batch=main_batch)
+game_object = [player_car]
 
 game_window.push_handlers(player_car.key_handler)
 
 
 def update(dt):
-    player_car.update(dt)
-    if player_car.dead:
-        player_car.delete()
+    for obj in game_object:
+        obj.update(dt)
+        if obj.dead:
+            obj.delete()
+            game_object.remove(obj)
+    if game_object == []:
+        pyglet.app.exit()
 
 
 @game_window.event
@@ -29,6 +34,5 @@ def on_draw():
     main_batch.draw()
 
 if __name__ == '__main__':
-
     pyglet.clock.schedule_interval(update, 1/120.0)
     pyglet.app.run()

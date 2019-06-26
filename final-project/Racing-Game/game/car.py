@@ -69,8 +69,3 @@ class Car(pyglet.sprite.Sprite):
                 continue
 
         return False
-
-
-    def delete(self):
-        super(Car,self).delete()
-        self.delete()
