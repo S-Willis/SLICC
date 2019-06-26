@@ -2,7 +2,6 @@ import pyglet
 import math
 from pyglet.window import key
 from . import resources, track
-from PIL import Image
 
 class Car(pyglet.sprite.Sprite):
 
@@ -37,7 +36,8 @@ class Car(pyglet.sprite.Sprite):
             self.x_velocity *= 0.9
             self.y_velocity *= 0.9
 
-        self.collisions()
+        if self.collision():
+            self.dead = True
 
     def check_bounds(self):
         min_x = -self.image.width /2
@@ -55,26 +55,22 @@ class Car(pyglet.sprite.Sprite):
         elif self.y > max_y:
             self.y = min_y
 
-    def collisions(self):
+    def collision(self):
 
-        file = Image.open('C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\collision_map.png')
-        map = file.load()
+        map_region = resources.map.get_region(int(self.x)-(int(self.width)//2),
+                                              int(self.y)-(int(self.height)//2),
+                                              int(self.width), int(self.height))
+        map_data = map_region.get_data('RGB', map_region.pitch)
 
-        for x in range(int(self.x)-(int(self.width)//2),int(self.x)+(int(self.width)//2)):
-            for y in range(int(self.y)-(int(self.height)//2),int(self.y)+(int(self.height)//2)):
-                if map[x,y][0] != 0 :
-                    self.dead = True
-                else:
-                    self.dead = False
+        for x in range(abs(map_region.pitch)):
+            if x % 3 == 0 and map_data[x] >= 200:
+                return True
+            else:
+                continue
 
-        # collision_map = pyglet.image.load('C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\collision_map.png')
-        # imgData = collision_map.get_image_data()
-        # region = imgData.get_region(self.x, self.y, self.width,self.height)
-        # rgbData = region.get_data('RGB',300)
-        # rgbList = rgbData.split('\\')
-        #
-        # for idx, val in enumerate(rgbList):
-        #     if idx % 3 == 1 and val == 'xff':
-        #         self.dead == True
-        #     else:
-        #         continue
+        return False
+
+
+    def delete(self):
+        super(Car,self).delete()
+        self.delete()

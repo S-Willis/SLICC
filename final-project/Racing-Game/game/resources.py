@@ -14,3 +14,6 @@ def sprite_center(image):
 sprite_center(car_image)
 sprite_center(track_image)
 sprite_center(track_map)
+
+file = pyglet.image.load('C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\collision_map.png')
+map = file.get_image_data()
