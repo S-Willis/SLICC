@@ -2,7 +2,6 @@ import pyglet
 from game import car, track
 
 game_window = pyglet.window.Window(800,600)
-pyglet.gl.glClearColor(0.5,0.5,0.7,0)
 
 main_batch = pyglet.graphics.Batch()
 
