@@ -57,9 +57,9 @@ class Car(pyglet.sprite.Sprite):
 
     def collision(self):
 
-        map_region = resources.map.get_region(int(self.x)-(int(self.width)//2),
+        map_region = resources.map.get_region(int(self.x)-(int(self.width)//4),
                                               int(self.y)-(int(self.height)//2),
-                                              int(self.width), int(self.height))
+                                              int(self.width//2), int(self.height))
         map_data = map_region.get_data('RGB', map_region.pitch)
 
         for x in range(abs(map_region.pitch)):
