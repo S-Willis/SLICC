@@ -4,14 +4,19 @@ from game import car, track
 game_window = pyglet.window.Window(800,600)
 
 main_batch = pyglet.graphics.Batch()
+background = pyglet.graphics.OrderedGroup(0)
+foreground = pyglet.graphics.OrderedGroup(1)
 
 lap = 0
 iteration = 0
 
-lap_counter = pyglet.text.Label(text = "Lap: " + str(lap), x=10, y=575, batch=main_batch, color=(0,0,0,255))
-iteration_counter = pyglet.text.Label(text = "Iteration: " + str(iteration), x = 700, y=575,batch=main_batch,color=(0,0,0,255))
-level_track = track.Track(x=400,y=300,batch=main_batch)
-player_car = car.Car(x=400,y=500,batch=main_batch)
+lap_counter = pyglet.text.Label(text = "Lap: " + str(lap), x=10, y=575, batch=main_batch,
+                                group=foreground,color=(0,0,0,255))
+iteration_counter = pyglet.text.Label(text = "Iteration: " + str(iteration),
+                                        x = 700, y=575,batch=main_batch,
+                                        group=foreground,color=(0,0,0,255))
+level_track = track.Track(x=400,y=300,batch=main_batch, group=background)
+player_car = car.Car(x=400,y=500,batch=main_batch,group=foreground)
 game_object = [player_car]
 
 game_window.push_handlers(player_car.key_handler)
