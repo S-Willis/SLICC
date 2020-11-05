@@ -1,6 +1,6 @@
 import pyglet
 
-pyglet.resource.path = ["C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\"]
+pyglet.resource.path = ["C:\\Users\\User\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\"]
 pyglet.resource.reindex()
 
 car_image = pyglet.resource.image("car.png")
@@ -15,5 +15,5 @@ sprite_center(car_image)
 sprite_center(track_image)
 sprite_center(track_map)
 
-file = pyglet.image.load('C:\\Users\\skyli\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\collision_map.png')
+file = pyglet.image.load('C:\\Users\\User\\Documents\\Uni\\SLICC\\SLICC\\final-project\\Racing-Game\\resources\\collision_map.png')
 map = file.get_image_data()

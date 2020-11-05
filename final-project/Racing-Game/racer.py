@@ -34,8 +34,12 @@ def update(dt):
             iteration += 1
             iteration_counter.text = "Iteration: " + str(iteration)
             reset(obj)
-    # if game_object == []:
-    #     pyglet.app.exit()
+        if obj.x == 380 and obj.y > 450:
+            global lap
+            lap += 1
+            lap_counter.text = "Lap: " + str(lap)
+
+
 
 def reset(obj):
     obj.dead = False

@@ -57,15 +57,25 @@ class Car(pyglet.sprite.Sprite):
 
     def collision(self):
 
-        map_region = resources.map.get_region(int(self.x)-(int(self.width)//4),
+        map_region = resources.map.get_region(int(self.x)-(int(self.height)//2),
                                               int(self.y)-(int(self.height)//2),
                                               int(self.width//2), int(self.height))
         map_data = map_region.get_data('RGB', map_region.pitch)
+        ## TODO: Fix thissss
 
-        for x in range(abs(map_region.pitch)):
-            if x % 3 == 0 and map_data[x] >= 200:
-                return True
-            else:
-                continue
-
+        # for x in range(abs(map_region.pitch)):
+        #     if x % 3 == 0 and map_data[x] >= 200:
+        #         return True
+        #     else:
+        #         continue
         return False
+
+    def sight(self):
+
+        map_region = resources.map.get_region(int(self.x)- int(self.width*3//2),
+                                              int(self.y)-(int(self.height)*3//2),
+                                              int(self.width*3), int(self.height*3))
+
+        sight_data = map_region.get_data('RGB', map_region.pitch)
+
+        return sight_data
